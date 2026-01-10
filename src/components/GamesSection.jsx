@@ -7,9 +7,10 @@ import { FaUserAstronaut, FaGamepad } from 'react-icons/fa';
 import GameCard from './GameCard';
 
 // Custom Icon Components using our assets
-const MinecraftIcon = () => <img src="/assets/games/minecraft.png" alt="Minecraft" className="w-full h-full object-contain" />;
-const RobloxIcon = () => <img src="/assets/games/roblox.png" alt="Roblox" className="w-full h-full object-contain" />;
-const AmongUsIcon = () => <img src="/assets/games/among-us.png" alt="Among Us" className="w-full h-full object-contain" />;
+const MinecraftIcon = () => <img src="/assets/games/minecraft.webp" alt="Minecraft" className="w-full h-full object-contain" />;
+const RobloxIcon = () => <img src="/assets/games/roblox.webp" alt="Roblox" className="w-full h-full object-contain" />;
+const AmongUsIcon = () => <img src="/assets/games/among-us.webp" alt="Among Us" className="w-full h-full object-contain" />;
+const ClashRoyaleIcon = () => <img src="/assets/games/clash-royale-icon.webp" alt="Clash Royale" className="w-full h-full object-contain" />;
 // For COD we might not have a png icon yet, use generic or generates
 const CodIcon = () => <FaGamepad />;
 
@@ -20,28 +21,28 @@ const GamesSection = () => {
             description: "Construye, explora y sobrevive en nuestro servidor SMP dedicado.",
             icon: MinecraftIcon,
             color: "from-green-600 to-green-400",
-            image: "/assets/events/minecraft.jpg"
+            image: "/assets/events/minecraft.webp"
         },
         {
             name: "Roblox",
             description: "Únete para el Juego del Calamar, obbys y minijuegos infinitos cada semana.",
             icon: RobloxIcon,
             color: "from-blue-600 to-blue-400",
-            image: "/assets/events/squid-game.jpg" // Using event image as bg if game bg missing
+            image: "/assets/events/squid-game.webp" // Using event image as bg if game bg missing
         },
         {
             name: "Among Us",
             description: "¿Quién es el impostor? No confíes en nadie en nuestras sesiones intensas.",
             icon: AmongUsIcon,
             color: "from-red-600 to-red-400",
-            image: "/assets/events/among-us.jpg"
+            image: "/assets/events/among-us.webp"
         },
         {
-            name: "COD Mobile",
-            description: "Partidas competitivas y escuadrones de battle royale.",
-            icon: CodIcon,
-            color: "from-yellow-600 to-yellow-400",
-            image: "/assets/games/cod-mobile.jpg"
+            name: "Clash Royale",
+            description: "Batallas estratégicas y torneos épicos de CR.",
+            icon: ClashRoyaleIcon,
+            color: "from-blue-600 to-purple-400",
+            image: "/assets/games/clash-royale-bg.webp"
         }
     ];
 

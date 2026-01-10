@@ -37,7 +37,7 @@ const Hero3D = () => {
                 >
                     <div className="absolute inset-0 bg-gradient-to-br from-primary to-secondary rounded-3xl blur-2xl opacity-50 animate-pulse-glow" />
                     <img
-                        src="/assets/logo.jpg"
+                        src="/assets/logo.webp"
                         alt="ERA LEMONS Logo"
                         className="w-full h-full object-cover rounded-3xl border-4 border-white/20 relative z-10 shadow-2xl"
                     />

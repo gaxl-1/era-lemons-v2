@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { FaCrown, FaShieldAlt, FaHammer } from 'react-icons/fa';
+import { FaCrown, FaShieldAlt, FaHammer, FaCode, FaDollarSign, FaVideo, FaUsers } from 'react-icons/fa';
 
 const StaffCard = ({ name, role, color, icon: Icon, image }) => (
     <motion.div
@@ -28,25 +28,67 @@ const StaffCard = ({ name, role, color, icon: Icon, image }) => (
 const Staff = () => {
     const staffMembers = [
         {
-            name: "GaelDev",
+            name: "Eneeros",
             role: "Owner",
-            color: "from-yellow-500 to-orange-500",
+            color: "from-red-500 to-orange-500",
             icon: FaCrown,
-            image: "/assets/logo.jpg" // Placeholder until user provides avatar
+            image: "/assets/logo.webp"
         },
         {
-            name: "Admin 1",
-            role: "Admin",
-            color: "from-red-500 to-rose-500",
-            icon: FaShieldAlt,
-            image: "/assets/logo.jpg"
+            name: "Alexis",
+            role: "Owner",
+            color: "from-red-500 to-orange-500",
+            icon: FaCrown,
+            image: "/assets/logo.webp"
         },
         {
-            name: "Mod 1",
-            role: "Moderator",
+            name: "GaelDev",
+            role: "Support & Developer",
             color: "from-blue-500 to-cyan-500",
-            icon: FaHammer,
-            image: "/assets/logo.jpg"
+            icon: FaCode,
+            image: "/assets/logo.webp"
+        },
+        {
+            name: "TCH",
+            role: "Support Manager",
+            color: "from-purple-500 to-pink-500",
+            icon: FaShieldAlt,
+            image: "/assets/logo.webp"
+        },
+        {
+            name: "Lenin",
+            role: "Founder Money",
+            color: "from-green-500 to-emerald-500",
+            icon: FaDollarSign,
+            image: "/assets/logo.webp"
+        },
+        {
+            name: "Luis",
+            role: "Administrador",
+            color: "from-red-500 to-pink-500",
+            icon: FaShieldAlt,
+            image: "/assets/logo.webp"
+        },
+        {
+            name: "Edwin",
+            role: "Helper Staff",
+            color: "from-indigo-500 to-purple-500",
+            icon: FaUsers,
+            image: "/assets/logo.webp"
+        },
+        {
+            name: "Ale",
+            role: "Colaborador",
+            color: "from-teal-500 to-cyan-500",
+            icon: FaUsers,
+            image: "/assets/logo.webp"
+        },
+        {
+            name: "Fer",
+            role: "Editor Maker",
+            color: "from-pink-500 to-rose-500",
+            icon: FaVideo,
+            image: "/assets/logo.webp"
         }
     ];
 
@@ -64,7 +106,7 @@ const Staff = () => {
                     </p>
                 </motion.div>
 
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
                     {staffMembers.map((member, index) => (
                         <StaffCard key={index} {...member} />
                     ))}

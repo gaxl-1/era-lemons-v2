@@ -13,16 +13,16 @@ const Footer = () => {
                             La comunidad gaming definitiva donde los jugadores se unen. Únete a nuestro servidor de Discord y sé parte de la familia.
                         </p>
                         <div className="flex gap-4">
-                            <a href="#" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center text-white hover:bg-tiktok-cyan hover:text-black transition-colors">
+                            <a href="https://www.tiktok.com/@lmns154?_r=1&_t=ZS-92mQQvjgSum" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center text-white hover:bg-tiktok-cyan hover:text-black transition-colors">
                                 <FaTiktok size={20} />
                             </a>
-                            <a href="#" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center text-white hover:bg-discord hover:text-white transition-colors">
+                            <a href="https://discord.gg/Jy5n6Nd6" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center text-white hover:bg-discord hover:text-white transition-colors">
                                 <FaDiscord size={20} />
                             </a>
-                            <a href="#" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center text-white hover:bg-blue-400 hover:text-white transition-colors">
+                            <a href="#twitter" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center text-white hover:bg-blue-400 hover:text-white transition-colors">
                                 <FaTwitter size={20} />
                             </a>
-                            <a href="#" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center text-white hover:bg-red-600 hover:text-white transition-colors">
+                            <a href="#youtube" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center text-white hover:bg-red-600 hover:text-white transition-colors">
                                 <FaYoutube size={20} />
                             </a>
                         </div>
@@ -35,7 +35,7 @@ const Footer = () => {
                             <li><a href="#home" className="text-gray-400 hover:text-primary transition-colors">Inicio</a></li>
                             <li><a href="#games" className="text-gray-400 hover:text-primary transition-colors">Juegos</a></li>
                             <li><a href="#events" className="text-gray-400 hover:text-primary transition-colors">Eventos</a></li>
-                            <li><a href="#" className="text-gray-400 hover:text-primary transition-colors">Ranking</a></li>
+                            <li><a href="#ranking" className="text-gray-400 hover:text-primary transition-colors">Ranking</a></li>
                         </ul>
                     </div>
 
@@ -52,7 +52,6 @@ const Footer = () => {
 
                 <div className="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
                     <p className="text-gray-500 text-sm">© 2026 ERA LEMONS. Todos los derechos reservados.</p>
-                    <p className="text-gray-600 text-sm">Diseñado con React & Tailwind</p>
                 </div>
             </div>
         </footer>

@@ -6,9 +6,14 @@ const Gallery = () => {
     const [selectedId, setSelectedId] = useState(null);
 
     const images = [
-        { id: 1, src: '/assets/events/squid-game.jpg', title: 'Squid Game Event', date: 'Oct 2025' },
-        { id: 2, src: '/assets/events/minecraft.jpg', title: 'SMP Launch', date: 'Nov 2025' },
-        { id: 3, src: '/assets/events/among-us.jpg', title: 'Among Us Night', date: 'Dec 2025' },
+        { id: 1, src: '/assets/events/event1.webp', title: 'Guerra de clanes', date: 'Dic 2025' },
+        { id: 2, src: '/assets/events/event2.webp', title: 'Atrapame si puedes', date: 'Dic 2025' },
+        { id: 3, src: '/assets/events/event3.webp', title: 'Halloween Especial', date: 'Oct 2025' },
+        { id: 4, src: '/assets/events/event4.webp', title: 'Navidad Minecraft', date: 'Dic 2025' },
+        { id: 5, src: '/assets/events/event5.webp', title: 'Squid Games Roblox', date: 'Dic 2025' },
+        { id: 6, src: '/assets/events/squid-game.webp', title: 'Squid Game Event', date: 'Oct 2025' },
+        { id: 7, src: '/assets/events/minecraft.webp', title: 'Preparandolo todo', date: 'Nov 2025' },
+        { id: 8, src: '/assets/events/among-us.webp', title: 'Noche de Among Us', date: 'Dic 2025' },
     ];
 
     return (

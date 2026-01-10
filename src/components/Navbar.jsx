@@ -20,6 +20,7 @@ const Navbar = () => {
 
     const navLinks = [
         { name: 'Inicio', path: '/' },
+        { name: 'Nosotros', path: '/about' },
         { name: 'Staff', path: '/staff' },
         { name: 'Calendario', path: '/calendar' },
         { name: 'Eventos', path: '/events' },
@@ -44,7 +45,7 @@ const Navbar = () => {
                             whileHover={{ rotate: 10, scale: 1.1 }}
                             className="w-10 h-10 rounded-full bg-gradient-to-br from-primary to-secondary p-0.5"
                         >
-                            <img className="w-full h-full rounded-full object-cover" src="/assets/logo.jpg" alt="Logo" />
+                            <img className="w-full h-full rounded-full object-cover" src="/assets/logo.webp" alt="Logo" />
                         </motion.div>
                         <span className="font-bold text-xl tracking-wider text-white group-hover:text-primary transition-colors">ERA LEMONS</span>
                     </Link>

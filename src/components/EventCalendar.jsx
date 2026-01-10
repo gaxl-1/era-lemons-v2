@@ -6,33 +6,23 @@ const EventCalendar = () => {
     const events = [
         {
             id: 1,
-            title: "Noche de Películas",
-            date: "Viernes, 8 PM MX",
-            description: "Votaremos en Discord qué película ver. ¡Prepara las palomitas!",
+            title: "🎮 Evento Roblox",
+            date: "Sábado 10 ENE, 8 PM MX",
+            description: "¡Evento especial de Roblox! Únete esta noche para juegos y diversión.",
             tag: "Social",
             color: "border-pink-500 text-pink-500",
             bg: "bg-pink-500/10",
-            day: "VIE"
+            day: "HOY"
         },
         {
             id: 2,
-            title: "Torneo Minecraft PVP",
-            date: "Sábado, 6 PM MX",
-            description: "FFA en el coliseo del servidor. Premio: Rango VIP por 1 mes.",
+            title: "🏗️ Nuevo Servidor Minecraft",
+            date: "Próximamente",
+            description: "¡Se abrirá un nuevo servidor Survival Vanilla para Java y Bedrock! Permanece atento para más información.",
             tag: "Competitivo",
             color: "border-green-500 text-green-500",
             bg: "bg-green-500/10",
-            day: "SÁB"
-        },
-        {
-            id: 3,
-            title: "Among Us con Voice Chat",
-            date: "Domingo, 7 PM MX",
-            description: "Partidas clásicas y modo escondite. Se requiere micrófono.",
-            tag: "Juegos",
-            color: "border-red-500 text-red-500",
-            bg: "bg-red-500/10",
-            day: "DOM"
+            day: "TBA"
         }
     ];
 
@@ -83,7 +73,7 @@ const EventCalendar = () => {
                                             {event.description}
                                         </p>
 
-                                        <a href="https://discord.gg/Jy5n6Nd6" target="_blank" className="inline-flex items-center gap-2 text-sm font-bold text-white hover:text-discord transition-colors">
+                                        <a href="https://discord.gg/Jy5n6Nd6" target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 text-sm font-bold text-white hover:text-discord transition-colors">
                                             <FaDiscord /> Confirmar Asistencia
                                         </a>
                                     </div>
