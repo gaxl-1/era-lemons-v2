@@ -73,7 +73,7 @@ const EventCalendar = () => {
                                             {event.description}
                                         </p>
 
-                                        <a href="https://discord.gg/Jy5n6Nd6" target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 text-sm font-bold text-white hover:text-discord transition-colors">
+                                        <a href="https://discord.gg/EMVErEEa" target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 text-sm font-bold text-white hover:text-discord transition-colors">
                                             <FaDiscord /> Confirmar Asistencia
                                         </a>
                                     </div>

@@ -109,7 +109,7 @@ const About = () => {
                             No importa si eres un pro o recién empiezas. En ERA LEMONS, lo importante es divertirse.
                         </p>
                         <a
-                            href="https://discord.gg/Jy5n6Nd6"
+                            href="https://discord.gg/EMVErEEa"
                             target="_blank"
                             rel="noreferrer"
                             className="inline-block bg-discord hover:bg-discord/90 text-white px-8 py-3 rounded-full font-bold text-lg transition-all transform hover:scale-105"

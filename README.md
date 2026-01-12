@@ -106,7 +106,7 @@ era-lemons-v2/
 
 ## 🔗 Links Importantes
 
-- **Discord**: [discord.gg/Jy5n6Nd6](https://discord.gg/Jy5n6Nd6)
+- **Discord**: [discord.gg/EMVErEEa](https://discord.gg/EMVErEEa)
 - **TikTok**: [@lmns154](https://www.tiktok.com/@lmns154?_r=1&_t=ZS-92mQQvjgSum)
 - **GitHub**: [gaxl-1/era-lemons-v2](https://github.com/gaxl-1/era-lemons-v2)
 

@@ -67,7 +67,7 @@ const Hero3D = () => {
                         <motion.a
                             whileHover={{ scale: 1.05 }}
                             whileTap={{ scale: 0.95 }}
-                            href="https://discord.gg/Jy5n6Nd6"
+                            href="https://discord.gg/EMVErEEa"
                             target="_blank"
                             className="bg-discord hover:bg-discord-dark text-white text-lg font-bold px-8 py-4 rounded-xl flex items-center justify-center gap-3 shadow-lg shadow-discord/30 transition-colors"
                         >
