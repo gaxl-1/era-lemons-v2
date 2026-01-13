@@ -32,63 +32,63 @@ const Staff = () => {
             role: "Owner",
             color: "from-red-500 to-orange-500",
             icon: FaCrown,
-            image: "/assets/eneros.png"
+            image: "/assets/eneros.webp"
         },
         {
             name: "Alexis",
             role: "Owner",
             color: "from-red-500 to-orange-500",
             icon: FaCrown,
-            image: "/assets/AlexisLe.png"
+            image: "/assets/AlexisLe.webp"
         },
         {
             name: "GaelDev",
             role: "Support & Developer",
             color: "from-blue-500 to-cyan-500",
             icon: FaCode,
-            image: "/assets/Gaelstaff.jpeg"
+            image: "/assets/Gaelstaff.webp"
         },
         {
             name: "TCH",
             role: "Support Manager",
             color: "from-purple-500 to-pink-500",
             icon: FaShieldAlt,
-            image: "/assets/tch.png"
+            image: "/assets/tch.webp"
         },
         {
             name: "Lenin",
             role: "Founder Money",
             color: "from-green-500 to-emerald-500",
             icon: FaDollarSign,
-            image: "/assets/lenin.png"
+            image: "/assets/lenin.webp"
         },
         {
             name: "Luis",
             role: "Administrador",
             color: "from-red-500 to-pink-500",
             icon: FaShieldAlt,
-            image: "/assets/luis.png"
+            image: "/assets/luis.webp"
         },
         {
             name: "Edwin",
             role: "Helper Staff",
             color: "from-indigo-500 to-purple-500",
             icon: FaUsers,
-            image: "/assets/edwin.png"
+            image: "/assets/edwin.webp"
         },
         {
             name: "Ale",
             role: "Colaborador",
             color: "from-teal-500 to-cyan-500",
             icon: FaUsers,
-            image: "/assets/alegood.png"
+            image: "/assets/alegood.webp"
         },
         {
             name: "Fer",
             role: "Editor Maker",
             color: "from-pink-500 to-rose-500",
             icon: FaVideo,
-            image: "/assets/Fer.jpg"
+            image: "/assets/Fer.webp"
         }
     ];
 
