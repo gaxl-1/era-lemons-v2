@@ -6,13 +6,13 @@ const EventCalendar = () => {
     const events = [
         {
             id: 1,
-            title: "🎮 Evento Roblox",
-            date: "Sábado 10 ENE, 8 PM MX",
-            description: "¡Evento especial de Roblox! Únete esta noche para juegos y diversión.",
-            tag: "Social",
-            color: "border-pink-500 text-pink-500",
-            bg: "bg-pink-500/10",
-            day: "HOY"
+            title: "🏗️ Nuevo Servidor Minecraft",
+            date: "Próximamente",
+            description: "¡Se abrirá un nuevo servidor Survival Vanilla para Java y Bedrock! Permanece atento para más información.",
+            tag: "Competitivo",
+            color: "border-green-500 text-green-500",
+            bg: "bg-green-500/10",
+            day: "TBA"
         },
         {
             id: 2,

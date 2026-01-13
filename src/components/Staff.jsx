@@ -32,63 +32,63 @@ const Staff = () => {
             role: "Owner",
             color: "from-red-500 to-orange-500",
             icon: FaCrown,
-            image: "/assets/logo.webp"
+            image: "/assets/eneros.png"
         },
         {
             name: "Alexis",
             role: "Owner",
             color: "from-red-500 to-orange-500",
             icon: FaCrown,
-            image: "/assets/logo.webp"
+            image: "/assets/AlexisLe.png"
         },
         {
             name: "GaelDev",
             role: "Support & Developer",
             color: "from-blue-500 to-cyan-500",
             icon: FaCode,
-            image: "/assets/logo.webp"
+            image: "/assets/Gaelstaff.jpeg"
         },
         {
             name: "TCH",
             role: "Support Manager",
             color: "from-purple-500 to-pink-500",
             icon: FaShieldAlt,
-            image: "/assets/logo.webp"
+            image: "/assets/tch.png"
         },
         {
             name: "Lenin",
             role: "Founder Money",
             color: "from-green-500 to-emerald-500",
             icon: FaDollarSign,
-            image: "/assets/logo.webp"
+            image: "/assets/lenin.png"
         },
         {
             name: "Luis",
             role: "Administrador",
             color: "from-red-500 to-pink-500",
             icon: FaShieldAlt,
-            image: "/assets/logo.webp"
+            image: "/assets/luis.png"
         },
         {
             name: "Edwin",
             role: "Helper Staff",
             color: "from-indigo-500 to-purple-500",
             icon: FaUsers,
-            image: "/assets/logo.webp"
+            image: "/assets/edwin.png"
         },
         {
             name: "Ale",
             role: "Colaborador",
             color: "from-teal-500 to-cyan-500",
             icon: FaUsers,
-            image: "/assets/logo.webp"
+            image: "/assets/alegood.png"
         },
         {
             name: "Fer",
             role: "Editor Maker",
             color: "from-pink-500 to-rose-500",
             icon: FaVideo,
-            image: "/assets/logo.webp"
+            image: "/assets/Fer.jpg"
         }
     ];
 
