@@ -6,7 +6,8 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 
 // Lazy load route components for better performance
-const Hero3D = lazy(() => import('./components/Hero'));
+import Hero3D from './components/Hero';
+import LemonLandAnnouncement from './components/LemonLandAnnouncement';
 const About = lazy(() => import('./components/About'));
 const Staff = lazy(() => import('./components/Staff'));
 const GamesSection = lazy(() => import('./components/GamesSection'));
@@ -44,6 +45,7 @@ function App() {
                         <Route path="/" element={
                             <>
                                 <Hero3D />
+                                <LemonLandAnnouncement />
                                 <GamesSection />
                                 <FameWall />
                             </>

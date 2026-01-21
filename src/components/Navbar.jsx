@@ -74,7 +74,7 @@ const Navbar = () => {
                         <motion.a
                             whileHover={{ scale: 1.05 }}
                             whileTap={{ scale: 0.95 }}
-                            href="https://discord.gg/EMVErEEa"
+                            href="https://discord.gg/SFg75PJq"
                             target="_blank"
                             rel="noreferrer"
                             className="bg-discord hover:bg-discord/90 text-white px-5 py-2.5 rounded-full flex items-center gap-2 font-bold text-sm shadow-lg shadow-discord/20 transition-all whitespace-nowrap min-w-max"
@@ -126,7 +126,7 @@ const Navbar = () => {
                             <div className="pt-4 flex flex-col gap-3">
                                 <DiscordWidget />
                                 <a
-                                    href="https://discord.gg/EMVErEEa"
+                                    href="https://discord.gg/SFg75PJq"
                                     target="_blank"
                                     rel="noreferrer"
                                     className="bg-discord text-white px-4 py-3 rounded-lg flex items-center justify-center gap-2 font-bold"

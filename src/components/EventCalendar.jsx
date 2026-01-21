@@ -6,23 +6,13 @@ const EventCalendar = () => {
     const events = [
         {
             id: 1,
-            title: "🏗️ Nuevo Servidor Minecraft",
-            date: "Próximamente",
-            description: "¡Se abrirá un nuevo servidor Survival Vanilla para Java y Bedrock! Permanece atento para más información.",
-            tag: "Competitivo",
-            color: "border-green-500 text-green-500",
-            bg: "bg-green-500/10",
-            day: "TBA"
-        },
-        {
-            id: 2,
-            title: "🏗️ Nuevo Servidor Minecraft",
-            date: "Próximamente",
-            description: "¡Se abrirá un nuevo servidor Survival Vanilla para Java y Bedrock! Permanece atento para más información.",
-            tag: "Competitivo",
-            color: "border-green-500 text-green-500",
-            bg: "bg-green-500/10",
-            day: "TBA"
+            title: "🍋 Inauguración LemonLand",
+            date: "Miércoles 21 de Enero",
+            description: "¡Gran apertura de nuestro servidor Minecraft! Únete a la aventura en Java y Bedrock. IP: Disponible en Discord",
+            tag: "Evento Especial",
+            color: "border-primary text-primary",
+            bg: "bg-primary/10",
+            day: "21"
         }
     ];
 
@@ -73,7 +63,7 @@ const EventCalendar = () => {
                                             {event.description}
                                         </p>
 
-                                        <a href="https://discord.gg/EMVErEEa" target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 text-sm font-bold text-white hover:text-discord transition-colors">
+                                        <a href="https://discord.gg/SFg75PJq" target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 text-sm font-bold text-white hover:text-discord transition-colors">
                                             <FaDiscord /> Confirmar Asistencia
                                         </a>
                                     </div>

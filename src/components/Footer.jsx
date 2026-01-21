@@ -16,7 +16,7 @@ const Footer = () => {
                             <a href="https://www.tiktok.com/@lmns154?_r=1&_t=ZS-92mQQvjgSum" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center text-white hover:bg-tiktok-cyan hover:text-black transition-colors">
                                 <FaTiktok size={20} />
                             </a>
-                            <a href="https://discord.gg/EMVErEEa" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center text-white hover:bg-discord hover:text-white transition-colors">
+                            <a href="https://discord.gg/SFg75PJq" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center text-white hover:bg-discord hover:text-white transition-colors">
                                 <FaDiscord size={20} />
                             </a>
                             <a href="#twitter" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center text-white hover:bg-blue-400 hover:text-white transition-colors">
